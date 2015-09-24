@@ -1,11 +1,15 @@
 FactoryGirl.define do
-  factory :user do
-    turn_ons "MyText"
-turn_offs "MyText"
-university "MyString"
-dept "MyString"
-matches "MyText"
-about_me "MyText"
+  factory :user, class: User do
+    sequence(:email) { |n| "user#{n}@example.com"}
+    password "password"
+    first_name "first name"
+    last_name "last name"
+    turn_ons ['good']
+    turn_offs ['bad']
+    university "MyString"
+    dept "MyString"
+    matches [1,2,3]
+    about_me "MyText"
   end
 
 end
