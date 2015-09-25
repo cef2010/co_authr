@@ -1,14 +1,12 @@
 Rails.application.routes.draw do
-  
+
   devise_for :users, controllers: {registrations: 'registrations'}
-
-  get 'publications/new'
-
-  get 'publications/edit'
 
   root 'users#index'
 
-  resources :users
+  resources :users do
+    resources :publications
+  end
 
 
   # The priority is based upon order of creation: first created -> highest priority.

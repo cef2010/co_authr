@@ -1,14 +1,14 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/arleighatkinson/Desktop/co_authr/config/environment.rb": [
+      "/Users/christianfuller/Desktop/co_authr/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/arleighatkinson/Desktop/co_authr/config/application.rb": [
+      "/Users/christianfuller/Desktop/co_authr/config/application.rb": [
         1,
         null,
         1,
@@ -45,12 +45,12 @@
         null,
         null
       ],
-      "/Users/arleighatkinson/Desktop/co_authr/config/boot.rb": [
+      "/Users/christianfuller/Desktop/co_authr/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/arleighatkinson/Desktop/co_authr/config/environments/test.rb": [
+      "/Users/christianfuller/Desktop/co_authr/config/environments/test.rb": [
         1,
         null,
         null,
@@ -94,7 +94,7 @@
         null,
         null
       ],
-      "/Users/arleighatkinson/Desktop/co_authr/config/initializers/assets.rb": [
+      "/Users/christianfuller/Desktop/co_authr/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -107,7 +107,7 @@
         null,
         null
       ],
-      "/Users/arleighatkinson/Desktop/co_authr/config/initializers/backtrace_silencers.rb": [
+      "/Users/christianfuller/Desktop/co_authr/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -116,12 +116,12 @@
         null,
         null
       ],
-      "/Users/arleighatkinson/Desktop/co_authr/config/initializers/cookies_serializer.rb": [
+      "/Users/christianfuller/Desktop/co_authr/config/initializers/cookies_serializer.rb": [
         null,
         null,
         1
       ],
-      "/Users/arleighatkinson/Desktop/co_authr/config/initializers/devise.rb": [
+      "/Users/christianfuller/Desktop/co_authr/config/initializers/devise.rb": [
         null,
         null,
         1,
@@ -385,13 +385,13 @@
         null,
         null
       ],
-      "/Users/arleighatkinson/Desktop/co_authr/config/initializers/filter_parameter_logging.rb": [
+      "/Users/christianfuller/Desktop/co_authr/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/arleighatkinson/Desktop/co_authr/config/initializers/inflections.rb": [
+      "/Users/christianfuller/Desktop/co_authr/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -409,18 +409,18 @@
         null,
         null
       ],
-      "/Users/arleighatkinson/Desktop/co_authr/config/initializers/mime_types.rb": [
+      "/Users/christianfuller/Desktop/co_authr/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/arleighatkinson/Desktop/co_authr/config/initializers/session_store.rb": [
+      "/Users/christianfuller/Desktop/co_authr/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/arleighatkinson/Desktop/co_authr/config/initializers/wrap_parameters.rb": [
+      "/Users/christianfuller/Desktop/co_authr/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -436,7 +436,7 @@
         null,
         null
       ],
-      "/Users/arleighatkinson/Desktop/co_authr/spec/factories/publications.rb": [
+      "/Users/christianfuller/Desktop/co_authr/spec/factories/publications.rb": [
         1,
         1,
         1,
@@ -447,118 +447,24 @@
         null,
         null
       ],
-      "/Users/arleighatkinson/Desktop/co_authr/spec/factories/users.rb": [
+      "/Users/christianfuller/Desktop/co_authr/spec/factories/users.rb": [
         1,
         1,
-        5,
-        1,
-        1,
-        1,
+        7,
         1,
         1,
         1,
         1,
         1,
         1,
-        null,
-        null,
-        null
-      ],
-      "/Users/arleighatkinson/Desktop/co_authr/app/models/user.rb": [
         1,
         1,
-        null,
-        null,
         1,
         null,
         null,
         null
       ],
-      "/Users/arleighatkinson/Desktop/co_authr/config/routes.rb": [
-        1,
-        null,
-        1,
-        null,
-        1,
-        null,
-        1,
-        null,
-        1,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/arleighatkinson/Desktop/co_authr/app/helpers/application_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/arleighatkinson/Desktop/co_authr/app/helpers/publications_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/arleighatkinson/Desktop/co_authr/app/helpers/users_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/arleighatkinson/Desktop/co_authr/app/controllers/users_controller.rb": [
-        1,
-        null,
+      "/Users/christianfuller/Desktop/co_authr/app/models/user.rb": [
         1,
         1,
         null,
@@ -568,15 +474,140 @@
         null,
         null
       ],
-      "/Users/arleighatkinson/Desktop/co_authr/app/controllers/application_controller.rb": [
+      "/Users/christianfuller/Desktop/co_authr/config/routes.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
         1,
         1,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/christianfuller/Desktop/co_authr/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/christianfuller/Desktop/co_authr/app/helpers/publications_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/christianfuller/Desktop/co_authr/app/helpers/users_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/christianfuller/Desktop/co_authr/app/controllers/publications_controller.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        2,
+        2,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        2,
+        2,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        4,
+        null,
+        null,
+        1,
+        6,
+        null,
+        null
+      ],
+      "/Users/christianfuller/Desktop/co_authr/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/christianfuller/Desktop/co_authr/app/models/publication.rb": [
+        1,
+        1,
         1,
         null
       ]
     },
-    "timestamp": 1443137118
+    "timestamp": 1443221621
   }
 }

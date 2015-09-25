@@ -20,7 +20,7 @@ RSpec.describe UsersController, type: :controller do
       get :show, { id: user.id }
       expect(response).to have_http_status(:success)
     end
-    it "shows another user page" do 
+    it "shows another user page" do
       user2 = FactoryGirl.create(:user)
       get :show, { id: user2.id }
       expect(response).to have_http_status(:success)
