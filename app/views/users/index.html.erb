@@ -1,3 +1,5 @@
-<h1>Users#index</h1>
-<%= current_user.first_name %>
-<p>Find me in app/views/users/index.html.erb</p>
+<h1>You're Super Smart <%= current_user.first_name %></h1>
+<%= link_to 'My Profile', user_path(current_user) %>
+<% @users.by_last_name(current_user).each do |user| %>
+<p><%= link_to '[+]', user_path(user.id) %> <%= user.last_name %>, <%= user.first_name[0] %>. : <%= user.dept %>, <%= user.university %></p>
+<% end %>

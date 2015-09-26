@@ -1,2 +1,35 @@
-<h1>Users#show</h1>
-<p>Find me in app/views/users/show.html.erb</p>
+<div class='container'>
+  <div class='header'>
+    <h1><%= @user.last_name %>, <%= @user.first_name[0] %>.</h1>
+    <h3><%= @user.dept %>: <%= @user.university %></h3>
+    <hr />
+    <p><%= @user.about_me %></p>
+    <hr />
+    <div class='row'>
+      <div class='col l6'>
+        <h5>Turn Offs</h5>
+        <ul>
+          <% @user.turn_ons.each do |on| %>
+          <li><%= on %></li>
+          <% end %>
+        </ul>
+      </div>
+      <div class='col l6'>
+        <h5>Turn Offs</h5>
+        <ul>
+          <% @user.turn_offs.each do |off| %>
+          <li><%= off %></li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  <!-- RENDER FORM IF CURRENT USER -->
+  <% if @user.id == current_user.id %>
+  <%= render 'layouts/about_me' %>
+  <% end %>
+
+
+
+</div>

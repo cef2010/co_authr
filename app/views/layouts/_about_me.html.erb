@@ -1,0 +1,39 @@
+<div class='row container'>
+  <%= form_for @user do |f| %>
+
+  <div class="field col l6">
+    <%= f.label :turn_ons %><br />
+    <input type='checkbox' id='math' name='user[turn_ons][]' value='Math'/>
+    <label for='math'>Math</label><br />
+    <input type='checkbox' id='science' name='user[turn_ons][]' value='Science'/>
+    <label for='science'>Science</label><br />
+    <input type='checkbox' id='anthro' name='user[turn_ons][]' value='Anthro'/>
+    <label for='anthro'>Anthro</label><br />
+    <input type='checkbox' id='bunnies' name='user[turn_ons][]' value='BUNNIES'/>
+    <label for='bunnies'>BUNNIES</label><br />
+  </div>
+
+
+  <div class="field col l6">
+    <%= f.label :turn_offs %><br />
+    <input type='checkbox' id='only_having_three_minutes' name='user[turn_offs][]' value='Only Having Three Minutes'/>
+    <label for='only_having_three_minutes'>You have three minutes</label><br />
+    <input type='checkbox' id='only_having_a_masters' name='user[turn_offs][]' value='Only Having a Masters'/>
+    <label for='only_having_a_masters'>Only having a masters</label><br />
+    <input type='checkbox' id='no_pubs' name='user[turn_offs][]' value='No Publications'/>
+    <label for='no_pubs'>No recent publications</label><br />
+    <input type='checkbox' id='hating_bunnies' name='user[turn_offs][]' value='Hating Bunnies'/>
+    <label for='hating_bunnies'>They hate bunnies</label><br />
+  </div>
+
+  <div class="field col l12">
+    <%= f.label :about_me %><br />
+    <%= f.text_area :about_me, class:  'materialize-textarea' %>
+  </div>
+
+  <div class=''>
+    <%= f.submit class: 'btn' %>
+  </div>
+
+  <% end %>
+</div>
